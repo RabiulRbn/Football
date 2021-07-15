@@ -1,0 +1,339 @@
+                
+                    /* Font              */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+                    /* Utilities */
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+                
+                
+                
+                  /* Headet style  */
+
+
+                  /* Nav-bar style   */
+
+
+.header-container{
+    background-color:#2D25A0;
+    padding: 30px 100px;
+    width: 86%;
+    height: 100vh;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    height: 44px;
+}
+.nav-list a:hover {
+    color: indianred;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 36px;
+}
+.login-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E02C6D;
+    padding: 5px 24px;
+   
+}
+.login-option:hover button{
+    color: indigo
+}
+
+
+
+
+.login-icon img{
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+    color: #fff;
+}
+.button button{
+    background-color: #E02C6D;
+    color: #ffff;
+    border: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 20px;
+   
+}
+
+    
+
+
+     /* Header-banner Style  */
+    
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+   
+}
+.banner-title{
+    font-weight: 700;
+    color: #fff;
+    font-size: 24px;
+    
+}
+
+.watch-live{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color:#E02C6D ;
+     width: 168px;
+     height: 44px;
+     padding-bottom: 6px;
+     
+
+}
+
+.watch-live img{
+    width: 24px;
+    height: 24px;
+    padding-top: 8px;
+    color: #fff;
+
+
+}
+.watch-live a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.arrow-icon{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    margin-top: 6px;
+}
+
+.watch-live:hover button {
+    color: indigo;
+    
+}
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+    
+
+}
+.header-container:hover .player-kick{
+    transform: rotate(50deg);
+    transform-origin: top,left;
+
+
+}
+.player-kick{
+    transition: transform .5s ease-in;
+}
+.fa-futbol{
+    font-size: 70px;
+    color: #fff;
+    position: relative;
+    right: 366px;
+    top: -366px;
+    transition: transform 2s ease-out 0.55s;
+}
+.header-container:hover .fa-futbol{
+    transform: translate(300px,-200px);
+
+}
+
+                
+
+
+                 /* main style */
+
+main{
+
+
+    background-color: #fff;
+    padding: 110px;
+}
+.player-detail{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    grid-row-gap: 15px;
+    margin-bottom: 100px;
+}
+.container{
+    width: 330px;
+    height: 474px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+    padding-left: 25px;
+    padding-top: 25px;
+     
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-info h2{
+    font-weight: bold;
+}
+
+
+
+             /* Section:Hightlight Style     */
+
+.highlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+.highlight-title h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+    margin-left: 50px;
+    
+}
+
+                    /* Award style  */
+
+.award{
+    padding: 90px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+    margin-bottom: 50px;
+}
+ 
+
+.award-title{
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+.award-images img{
+    height: 200px;
+    width: 200px;
+
+}
+
+                /* Letest News Style  */
+.latest-news-container{
+    padding: 80px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+}
+.news-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.news{
+    display: flex;
+}
+.news-image img{
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+
+
+                    /* Footer Style  */
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+    
+    
+}
+
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+    
+
+}
+
+.footer-icon img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    
+}
+.footer-copyright{
+   color: #000000;
+   font-size: 18px;
+   font-weight: 500;
+   
+}
+
+                /* Media Quatries */
+                
+                /* mobile Devices */
+
+@media only screen  and (max-width:688px){
+  .header-container{
+      width: 100%;
+      height: 100%;
+  }
+    .banner{
+
+       
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    .banner-image{
+        margin-top: 30px;
+    }
+    
+    .player-detail{
+      
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+
+    
+
+    .nav-bar, .highlight, .award-container, .latest-news-container{
+        display: none;
+    }
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
